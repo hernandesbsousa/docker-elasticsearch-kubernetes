@@ -24,8 +24,8 @@ http:
 discovery:
   zen:
     ping.unicast.hosts: ${DISCOVERY_SERVICE}
-    minimum_master_nodes: ${NUMBER_OF_MASTERS}
-    
+    minimum_master_nodes: 2
+
 bootstrap:
   memory_lock: ${MEMORY_LOCK}
 
